@@ -43,10 +43,21 @@ objetoNuevo = null
  esta es la sintaxis:
 *   let variable = valor
 
-las variables si no se les asigna ningun dato su valor sera undefind esto nos causara errores si nosotros tratamos de acceder al valor de esta variable
+las variables si no se les asigna ningun dato su valor sera undefind esto nos causara errores si nosotros tratamos de acceder al valor de esta variable para darles valor a una varibale existen 2 formas
+asignacion,  Declaracion y reasignacion
+asignacion es darle valor a una varible y declaracion es crear una variable 
 
+let var1 aqui se crea la variable y se le asigna automaticamente el valor undefind 
 
- tambien existen las constantes estos son lo mismo que las variables con la diferencia de que estas son imutables es decir que estas no pueden modificar su valor en tiempo de ejecucion
- el valor que se les asigna no se puede volver a cambiar 
+var1 = 1 aqui nosotros reemplazamos el valor undefind con el valor 1
 
+* asigancion por referencia
 */
+// asigancion por referencia 
+let profesor = 'alexys'
+let alumno = profesor
+
+profesor = 'alvaro'
+
+console.log(profesor)
+console.log(alumno) 
