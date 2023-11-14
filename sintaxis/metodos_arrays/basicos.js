@@ -24,3 +24,6 @@ let foreach = amigos.forEach(function(amigo){
 let foreach2 = amigos.forEach(amigo => {console.log(amigo)})
 console.log(foreach2)
 
+
+// .map() si me devuelve un array con lo que retorna cada ciclo 
+let arraymap = amigos.map(amigo => `hola!: ${amigo}`)
